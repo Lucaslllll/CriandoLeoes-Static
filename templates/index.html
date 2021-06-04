@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Template Mo">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+    <title>Criando Leões | HOME</title>
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+
+
+    <link rel="stylesheet" type="text/css" href="../static/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/assets/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../static/assets/css/templatemo-art-factory.css">
+    <link rel="stylesheet" type="text/css" href="../static/assets/css/owl-carousel.css">
+
+
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="#" class="logo" style="font-size: 25px" >Criando Leões</a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#welcome" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#about">Nossas Dicas</a></li>
+                            <li class="scroll-to-section"><a href="#services">Nossas Recomendações</a></li>
+                            <!-- <li class="scroll-to-section"><a href="#frequently-question">Frequently Questions</a></li> -->
+                            <!-- <li class="submenu">
+                                <a href="javascript:;">Drop Down</a>
+                                <ul>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Features</a></li>
+                                    <li><a href="">FAQ's</a></li>
+                                    <li><a href="">Blog</a></li>
+                                </ul>
+                            </li> -->
+
+                            <li class="scroll-to-section"><a href="#contact-us">Fale conosco</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome">
+
+        <!-- ***** Header Text Start ***** -->
+        <div class="header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <h1 style="font-size: 28px">A Criando Leões <strong>quer você</strong></h1>
+                        <p style="font-size: 12px">Somos um grupo de Jovens com a intenção de levar rotina de treinos e alimentação saudável para aqueles que se cansarão de serem sedentários e buscam mudar suas perspectivas.</p>
+                        <a href="#about" class="main-button-slider">Veja mais</a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                        <img src="../static/assets/images/leao.png" class="rounded img-fluid d-block mx-auto" alt="First Vector Graphic">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Header Text End ***** -->
+    </div>
+    <!-- ***** Welcome Area End ***** -->
+
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="about">
+     <div class="catalogo">
+
+        <div class="uk-child-width-1-2@m" uk-grid>
+            <!-- {% for newss in news %} -->
+            <div>
+
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <!-- <img src="{{newss.image.url}}" alt=""> -->
+                        <img src="../static/assets/images/dieta.png" alt="">
+                    </div>
+
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Bem-vindo</h3>
+                        <p style="height: 200px;">Sejam todos bem-vindos</p>
+                        <a class="uk-button uk-button-default" href="#modal-full{{newss.id}}" uk-toggle>Ler mais</a>
+                    <!-- <div id="modal-overflow{{newss.id}}" uk-modal>
+                        <div class="uk-modal-dialog">
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <div class="uk-modal-header">
+                                <h2 class="uk-modal-title">{{newss.title}}</h2>
+                            </div>
+                            <div class="uk-modal-body" uk-overflow-auto>
+                                {{newss.paragraph  | safe | linebreaks}}
+                                <p>Enviado em {{newss.date_send}}</p>
+                            </div>
+                            <div class="uk-modal-footer uk-text-right">
+                                <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                                que tal gerar um pdf?
+                                <button class="uk-button uk-button-primary" type="button">gerar pdf</button>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div id="modal-full{{newss.id}}" class="uk-modal-full" uk-modal>
+                        <div class="uk-modal-dialog">
+                            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                                <div class="uk-background-contain" style="background-image: url('{{newss.image.url}}');" uk-height-viewport></div>
+                                <div class="uk-padding-large">
+                                    <h1>{{newss.title}}</h1>
+                                    <p>
+                                        {{ newss.paragraph | safe | linebreaks }}
+
+                                        
+                                        <p> Enviado em {{newss.date_send}}</p>
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- {% endfor %} -->
+
+    </div>
+</div>
+</section>
+<!-- ***** Features Big Item End ***** -->
+
+
+
+
+
+<!-- ***** Features Big Item Start ***** -->
+<section class="section" id="about2">
+    <div class="container">
+        <div class="row">
+            <div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix">
+                <div class="left-heading">
+                    <h5>Benefícios de uma vida saudável</h5>
+                </div>
+                <p>Se for tentar listar quantos são os benefícios, seria uma lista gigantesca, então iremos listar só alguns, mas lanço o desafio de procurar todos eles no Google ou nos acompanhar para aprender conosco ;)</p>
+                <ul>
+                    <li>
+                        <img src="../static/assets/images/about-icon-01.png" alt="">
+                        <div class="text">
+                            <h6>Liberação De Endorfina Do Corpo (Um Dos Hormônios Do Bem-Estar) e Qualidade do Sono </h6>
+                            <p>"..., But I Feel So Great"</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/assets/images/about-icon-02.png" alt="">
+                        <div class="text">
+                            <h6>Prevenção da Obesidade e Ficar Mais Atraente</h6>
+                            <p>Quem não quer ficar mais atraente, não é mesmo? Ou você é diferente?</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/assets/images/about-icon-03.png" alt="">
+                        <div class="text">
+                            <h6>Redução do Risco de Doenças Cardiovasculares e Outras Doenças Vindas do Sedentarismo</h6>
+                            <p>Já ouviu falar "Com saúde não se brinca" e "É melhor previnir do que remediar"? É melhor não duvidar dessas frases ;) <!-- <a rel="nofollow" href="https://templatemo.com/contact">contact</a> us on TemplateMo. --></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-image col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                <img src="../static/assets/images/bodybuilder.png" class="rounded img-fluid d-block mx-auto" alt="App">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Features Big Item End ***** -->
+
+
+<!-- ***** Features Small Start ***** -->
+<section class="section" id="services">
+    <div class="container">
+        <h3 class="text-news uk-margin uk-card uk-card-default uk-card-body">Nossas Recomendações de Cursos</h3>
+        <div class="row">
+
+            <!-- <div class="owl-carousel owl-theme"> -->
+
+                <div class="item service-item">
+                    <div class="icon">
+                        <i><img src="../static/assets/images/Desafio19dias.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">Desafio 19 Dias com Grupo Vip</h5>
+                    <p>O Desafio 19 dias é um e-book super completo para você perder até 10 Kg em apenas 19 dias, desinchar o corpo e limpar o seu organismo. Cardápio simples e prático com alimentos do dia-a-dia, mais de 300 receitas low carb, 100 receitas detox, exercícios e muito mais!</p>
+                    <a href="https://go.hotmart.com/E54807244K" class="main-button"> VEJA MAIS!</a>
+                </div>
+                <!-- <div class="item service-item">
+                    <div class="icon">
+                        <i><img src="../static/assets/images/service-icon-02.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">Second Box Title</h5>
+                    <p>Pellentesque vitae urna ut nisi viverra tristique quis at dolor. In non sodales dolor, id egestas quam. Aliquam erat volutpat. </p>
+                    <a href="#" class="main-button">Discover More</a>
+                </div>
+                <div class="item service-item">
+                    <div class="icon">
+                        <i><img src="../static/assets/images/service-icon-03.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">Third Title Box</h5>
+                    <p>Quisque finibus libero augue, in ultrices quam dictum id. Aliquam quis tellus sit amet urna tincidunt bibendum.</p>
+                    <a href="#" class="main-button">More Detail</a>
+                </div>
+                <div class="item service-item">
+                    <div class="icon">
+                        <i><img src="../static/assets/images/service-icon-02.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">Fourth Service Box</h5>
+                    <p>Fusce sollicitudin feugiat risus, tempus faucibus arcu blandit nec. Duis auctor dolor eu scelerisque vestibulum.</p>
+                    <a href="#" class="main-button">Read More</a>
+                </div>
+                <div class="item service-item">
+                    <div class="icon">
+                        <i><img src="../static/assets/images/service-icon-01.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">Fifth Service Title</h5>
+                    <p>Curabitur aliquam eget tellus id porta. Proin justo sapien, posuere suscipit tortor in, fermentum mattis elit.</p>
+                    <a href="#" class="main-button">Discover</a>
+                </div>
+                <div class="item service-item">
+                    <div class="icon">
+                        <i><img src="../static/assets/images/service-icon-03.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">Sixth Box Title</h5>
+                    <p>Ut nibh velit, aliquam vitae pellentesque nec, convallis vitae lacus. Aliquam porttitor urna ut pellentesque.</p>
+                    <a href="#" class="main-button">Detail</a>
+                </div>
+                <div class="item service-item">
+                    <div class="icon">
+                        <i><img src="../static/assets/images/service-icon-01.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">Seventh Title Box</h5>
+                    <p>Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio. Donec non quam.</p>
+                    <a href="#" class="main-button">Read More</a>
+                </div> -->
+
+            <!-- </div> -> CARROSSEL -->
+        
+        </div>
+    </div>
+</section>
+<!-- ***** Features Small End ***** -->
+
+
+<!-- ***** Frequently Question Start ***** -->
+<section class="section" id="frequently-question">
+    <div class="container">
+        <!-- ***** Section Title Start ***** -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2>Perguntas frequentemente feitas</h2>
+                </div>
+            </div>
+            <div class="offset-lg-3 col-lg-6">
+                <div class="section-heading">
+                    <p>Parte destinada a dúvida sobre nossa equipe e nossos objetivos</p>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Section Title End ***** -->
+
+        <div class="row">
+            <div class="left-text col-lg-6 col-md-6 col-sm-12">
+                <h5>Por que nos acompanhar?</h5>
+                <div class="accordion-text">
+                    <p>Acompanhe nossas postagens no instagram ou por aqui e aprenda melhorar seu estilo de vida, se isto lhe incomoda, é claro ;)</p>
+                    <p>Iremos trazer boas recomendações de cursos para todos vocês que desejam ter bons acompanhamento!</p>
+                    <span>Email: <a href="#">criandoleoes.official@gmail.com</a><br></span>
+                    <a href="#contact-us" class="main-button">Entre em contato conosc</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="accordions is-first-expanded">
+                    <article class="accordion">
+                        <div class="accordion-head">
+                            <span>Quem são vocês?</span>
+                            <span class="icon">
+                                <i class="icon fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="content">
+                                <p>
+                                    Somos um grupo de jovens que estão cansados de ver pessoas tendo problemas de saúde graças ao seu estilo de vida sedentário e má alimentação.
+                                    <!-- <br><br>
+                                Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat. --></p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion">
+                        <div class="accordion-head">
+                            <span>Qual é o objetivo de vocês?</span>
+                            <span class="icon">
+                                <i class="icon fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="content">
+                                <p>Aqui daremos dicas de como emagrecer e tonificar o seu corpo de forma saudável, com conforto e responsabilidade.
+                                   <!--  <br><br>
+                                Praesent ut placerat turpis, vel pellentesque dolor. Sed rutrum eleifend tortor, eu luctus orci sagittis in. In blandit fringilla mollis. --></p>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- <article class="accordion">
+                        <div class="accordion-head">
+                            <span>Second Question Answer</span>
+                            <span class="icon">
+                                <i class="icon fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="content">
+                                <p>Sed odio elit, cursus sed consequat at, rutrum eget augue. Cras ac eros iaculis, tempor quam sit amet, scelerisque mi. Quisque eu risus eget nunc porttitor vestibulum at a ante.
+                                    <br><br>
+                                Praesent ut placerat turpis, vel pellentesque dolor. Sed rutrum eleifend tortor, eu luctus orci sagittis in. In blandit fringilla mollis.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion">
+                        <div class="accordion-head">
+                            <span>Third Answer for you</span>
+                            <span class="icon">
+                                <i class="icon fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="content">
+                                <p>Proin feugiat ante ut vulputate rutrum. Nam quis erat turpis. Nullam maximus pharetra lorem, eu condimentum est iaculis ut. Pellentesque mattis ultrices dignissim. 
+                                    <br><br>
+                                Etiam et enim finibus, feugiat massa efficitur, finibus sapien. Sed cursus lacus quis arcu scelerisque, eget ornare risus maximus. Aenean non lectus id odio rhoncus pharetra.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion">
+                        <div class="accordion-head">
+                            <span>Fourth Question Asked</span>
+                            <span class="icon">
+                                <i class="icon fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="content">
+                                <p>Phasellus eu purus ornare, eleifend orci nec, egestas nulla. Sed sed aliquet sapien. Proin placerat, ipsum eu posuere blandit, tellus quam consectetur nisi, id sollicitudin diam ex at nisi.
+                                    <br><br>
+                                Aenean fermentum eget turpis egestas semper. Sed finibus mollis venenatis. Praesent at sem in massa iaculis pharetra.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion">
+                        <div class="accordion-head">
+                            <span>Fifth Ever Question</span>
+                            <span class="icon">
+                                <i class="icon fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="content">
+                                <p>Quisque aliquet ipsum ut magna rhoncus, euismod lacinia elit rhoncus. Sed sapien elit, mollis ut ultricies quis, fermentum nec ante.
+                                    <br><br>
+                                Sed nec ex nec tortor fermentum sollicitudin id ut ligula. Ut sagittis rutrum lectus, non sagittis ante euismod eu. </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion">
+                        <div class="accordion-head">
+                            <span>Sixth Sense Question</span>
+                            <span class="icon">
+                                <i class="icon fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="content">
+                                <p>Suspendisse potenti. Ut dapibus leo ut massa vulputate semper. Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.</p>
+                            </div>
+                        </div>
+                    </article> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Frequently Question End ***** -->
+
+
+<!-- ***** Contact Us Start ***** -->
+<section class="section" id="contact-us">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- ***** Contact Map Start ***** -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div id="map">
+                      <!-- How to change your own map point
+                           1. Go to Google Maps
+                           2. Click on your location point
+                           3. Click "Share" and choose "Embed map" tab
+                           4. Copy only URL and paste it within the src="" field below
+                       -->
+
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.63880396772!2d-35.21828894955404!3d-6.440408695317627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ad7f558bc46bf7%3A0x60662c27efd878a3!2sSamaumeira%20Pau%20Grande!5e0!3m2!1spt-BR!2sth!4v1622745976910!5m2!1spt-BR!2sth" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                   </div>
+               </div>
+               <!-- ***** Contact Map End ***** -->
+
+               <!-- ***** Contact Form Start ***** -->
+               <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="contact-form">
+                    <form id="contact" action="" method="post">
+                      <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                          <fieldset>
+                            <input name="name" type="text" id="name" placeholder="Nome Completo" required="" class="contact-field">
+                        </fieldset>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                      <fieldset>
+                        <input name="email" type="text" id="email" placeholder="E-mail" required="" class="contact-field">
+                    </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <textarea name="message" rows="6" id="message" placeholder="Sua mensagem" required="" class="contact-field"></textarea>
+                </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <button type="submit" id="form-submit" class="main-button">Envie-a</button>
+            </fieldset>
+        </div>
+    </div>
+</form>
+</div>
+</div>
+<!-- ***** Contact Form End ***** -->
+</div>
+</div>
+</section>
+<!-- ***** Contact Us End ***** -->
+
+
+<!-- ***** Footer Start ***** -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <p class="copyright">Copyright &copy; Criando Leões </p>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <ul class="social">
+                    <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-rss"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+                    <li>Segue a gente no Instagram <a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="../static/assets/js/jquery-2.1.0.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="../static/assets/js/popper.js"></script>
+<script src="../static/assets/js/bootstrap.min.js"></script>
+
+<!-- Plugins -->
+<script src="../static/assets/js/owl-carousel.js"></script>
+<script src="../static/assets/js/scrollreveal.min.js"></script>
+<script src="../static/assets/js/waypoints.min.js"></script>
+<script src="../static/assets/js/jquery.counterup.min.js"></script>
+<script src="../static/assets/js/imgfix.min.js"></script> 
+
+<!-- Global Init -->
+<script src="../static/assets/js/custom.js"></script>
+
+</body>
+</html>
