@@ -220,7 +220,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #f55858;
+  background-color: #07721D;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -231,14 +231,14 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #FF6634;
+  background-color: #4D9936;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #F67B34;
+  background-color: #07721D;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -249,7 +249,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #FF6634;
+  background-color: #4D9935;
 }
 
 button.main-button {
@@ -259,7 +259,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 10px 20px;
-  background-color: #f55858;
+  background-color: #07721D;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -270,7 +270,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #FF6634;
+  background-color: #4D9936;
 }
 
 .section-heading h2 {
@@ -309,17 +309,17 @@ header
 }
 
 .background-header .main-nav .nav > li:hover > a {
-  color: #f55858 !important;
+  color: #58FA58 !important;
 }
 
 .background-header .main-nav .nav > li > ul > li:hover > a {
-  color: #f55858 !important;
+  color: #58FA58 !important;
 }
 
 .background-header .nav li a.active {
-  color: #f55858 !important;
+  color: #58FA58 !important;
 }
-
+ 
 .header-area {
   position: absolute;
   top: 0px;
@@ -391,9 +391,9 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #f55858;
+  color: #58FA58;
 }
-
+ 
 .header-area .main-nav .nav li.submenu {
   position: relative;
   padding-right: 35px;
@@ -909,43 +909,43 @@ services
 #services {
   position: relative;
   padding: 120px 0px 90px 0px;
-  background: #f0820b;
+  background: #58D68D;
   background: -moz-linear-gradient(
     -45deg,
-    #ff4d00 0%,
-    #ff1f1f 0%,
-    #f0820b 100%
+    #58FA58 0%, /*mais claro*/
+    #088A4B 0%, /*mais escuro*/
+    #01DF74 100% /*medio*/
   );
   background: -webkit-gradient(
     left top,
     right bottom,
-    color-stop(0%, #f0820b),
-    color-stop(0%, #f0820b),
-    color-stop(100%, #f0820b)
+    color-stop(0%, #01DF74),
+    color-stop(0%, #01DF74),
+    color-stop(100%, #01DF74)
   );
   background: -webkit-linear-gradient(
     -45deg,
-    #ff4d00 0%,
-    #ff1f1f 0%,
-    #f0820b 100%
+    #58FA58 0%,
+    #088A4B 0%,
+    #01DF74 100%
   );
   background: -o-linear-gradient(
     -45deg,
-    #ff4d00 0%,
-    #ff1f1f 0%,
-    #f0820b 100%
+    #58FA58 0%,
+    #088A4B 0%,
+    #01DF74 100%
   );
   background: -ms-linear-gradient(
     -45deg,
-    #ff4d00 0%,
-    #ff1f1f 0%,
-    #f0820b 100%
+    #58FA58 0%,
+    #088A4B 0%,
+    #01DF74 100%
   );
   background: linear-gradient(
     135deg,
-    #ff4d00 0%,
-    #ff1f1f 0%,
-    #f0820b 100%
+    #58FA58 0%,
+    #088A4B 0%,
+    #01DF74 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 );
 }
@@ -973,7 +973,7 @@ services
 
 .service-item:hover .icon,
 .service-item:hover a.main-button {
-  background-color: #FFA034;
+  background-color: #4D9936;
 }
 
 .service-item .icon {
@@ -988,7 +988,7 @@ services
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #FF4634;
+  background: #07721D;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1226,10 +1226,10 @@ contact
   padding: 100px;
   background: #f0820b;
   background: -moz-linear-gradient(
-    -45deg,
-    #f0820b 0%,
-    #f0820b 0%,
-    #f0820b 100%
+   -45deg,
+    #58FA58 0%,
+    #088A4B 0%,
+    #01DF74 100%
   );
   background: -webkit-gradient(
     left top,
@@ -1240,27 +1240,27 @@ contact
   );
   background: -webkit-linear-gradient(
     -45deg,
-    #ff4d00 0%,
-    #ff1f1f 0%,
-    #f0820b 100%
+    #58FA58 0%,
+    #088A4B 0%,
+    #01DF74 100%
   );
   background: -o-linear-gradient(
     -45deg,
-    #ff4d00 0%,
-    #ff1f1f 0%,
-    #f0820b 100%
+    #58FA58 0%,
+    #088A4B 0%,
+    #01DF74 100%
   );
   background: -ms-linear-gradient(
     -45deg,
-    #ff4d00 0%,
-    #ff1f1f 0%,
-    #f0820b 100%
+    #58FA58 0%,
+    #088A4B 0%,
+    #01DF74 100%
   );
   background: linear-gradient(
     135deg,
-    #ff4d00 0%,
-    #ff1f1f 0%,
-    #f0820b 100%
+    #58FA58 0%,
+    #088A4B 0%,
+    #01DF74 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 );
 }
@@ -1336,7 +1336,7 @@ footer .social li {
 footer .social li a {
   color: #fff;
   text-align: center;
-  background-color: #F67B34;
+  background-color: #01DF74;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -1350,7 +1350,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #0088e8;
+  background-color: #58FA58;
   color: #fff;
 }
 
@@ -1380,7 +1380,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #ff2900 0%, #e37600 100%);
+  background-image: linear-gradient(145deg, #21C147 0%, #06C833 100%);
   left: 0;
   right: 0;
   top: 0;
